@@ -1,0 +1,26 @@
+.section__header {
+  display: flex;
+  justify-content: space-between;
+}
+.section__main-heading {
+  text-transform: capitalize;
+  font-weight: 900;
+  margin-bottom: 0.1rem;
+}
+.section__second-heading {
+  margin-bottom: 0;
+  color: grey;
+  font-size: 0.8rem;
+}
+.section__link {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.section__link,
+.section__link:active,
+.section__link:visited,
+.section__link:hover {
+  color: var(--whiten-color);
+  text-decoration: none;
+}

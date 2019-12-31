@@ -1,0 +1,30 @@
+.announcement {
+  display: flex;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.announcement__photo {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+.teacher-subject {
+  min-width: 25%;
+}
+.announcement__teacher-name {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  /* margin-right: 0.3rem; */
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.announcement__subject {
+  color: grey;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+.announcement__body {
+  font-size: 0.8rem;
+  color: grey;
+}

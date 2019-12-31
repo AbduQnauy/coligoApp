@@ -1,0 +1,46 @@
+.timeComponent {
+  grid-area: time;
+  margin: 2.5vh;
+  order: 3;
+  background: linear-gradient(
+      to left,
+      transparent,
+      var(--whiten-coffee) 26%,
+      var(--darken-coffee),
+      rgba(245, 246, 252, 0.52)
+    ),
+    url(../../desk_study.jpg) right bottom / contain no-repeat;
+  padding: 1rem 1.5rem 1.5rem;
+}
+.timeComponent__heading {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    var(--darken-color),
+    var(--whiten-color)
+  );
+  background-clip: text;
+  color: transparent;
+}
+.timeComponent__text::first-letter,
+.timeComponent__quote::first-letter {
+  text-transform: capitalize;
+}
+.timeComponent__quote-author {
+  text-transform: capitalize;
+}
+.timeComponent__text {
+  color: rgb(90, 90, 90);
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.timeComponent__quote {
+  color: rgba(95, 95, 95, 0.589);
+  line-height: 1;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}

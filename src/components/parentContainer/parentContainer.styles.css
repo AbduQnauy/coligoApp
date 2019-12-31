@@ -1,0 +1,14 @@
+.parent__container {
+  /* background-color: rgba(178, 189, 204, 0.315); */
+  background-color: #f8ffe5;
+  display: grid;
+  grid-template-columns: 20vw repeat(3, 1fr);
+  grid-template-rows: 10vh repeat(5, calc(90vh / 5));
+  grid-template-areas:
+    "aside header header header"
+    "aside time time time"
+    "aside time time time"
+    "aside main main main"
+    "aside main main main"
+    "aside main main main";
+}

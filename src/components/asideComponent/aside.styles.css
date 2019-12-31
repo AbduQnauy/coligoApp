@@ -1,0 +1,65 @@
+.asideComponent {
+  grid-area: aside;
+  background: linear-gradient(var(--darken-color), var(--whiten-color));
+  order: 1;
+  color: #fff;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideComponent__heading {
+  font-family: "Handlee", cursive;
+  align-self: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 2rem 0 0.5rem;
+  margin: 0;
+}
+.asideComponent__nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 3rem 0 0 0;
+}
+.asideComponent__item {
+  display: flex;
+  cursor: pointer;
+  padding: 1.5rem;
+  transition: background 0.2s ease-in;
+}
+.nav__icon {
+  flex-basis: 20%;
+  font-size: 2rem;
+  background: transparent;
+  transition: color 0.3s ease-in 0.1s;
+}
+.nav__text {
+  color: #fff;
+  flex-grow: 1;
+  margin-left: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  align-self: flex-end;
+  transition: all 0.2s ease-in;
+}
+
+.asideComponent__item:hover {
+  background-color: #fff;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-image: linear-gradient(
+      to top left,
+      var(--whiten-color),
+      var(--darken-color)
+    )
+    1 100%;
+}
+.asideComponent__item:hover svg * {
+  fill: url(#lg);
+}
+.asideComponent__item:hover .nav__text {
+  color: var(--whiten-color);
+  font-weight: bold;
+  padding-left: 0.8rem;
+  text-decoration: none;
+}

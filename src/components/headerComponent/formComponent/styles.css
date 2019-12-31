@@ -1,0 +1,18 @@
+.headerComponent__form {
+  position: relative;
+  margin: 0 1rem 0 3rem;
+}
+.headerComponent__search-icon {
+  color: rgb(178, 178, 178);
+  position: absolute;
+  right: 85%;
+  top: 32%;
+}
+.headerComponent__input {
+  outline: none;
+  padding: 0.5rem 0.5rem 0.5rem 3.3rem;
+  border-radius: 20px;
+  box-shadow: none;
+  border-style: solid;
+  border-color: rgba(179, 178, 178, 0.226);
+}

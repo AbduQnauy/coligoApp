@@ -1,0 +1,34 @@
+.headerComponent {
+  grid-area: header;
+  background-color: #fff;
+  order: 2;
+  display: flex;
+  align-items: center;
+  padding: 0 3% 0 5%;
+}
+
+.headerComponent__text {
+  text-transform: capitalize;
+  color: var(--darken-color);
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-right: auto;
+}
+.headerComponent__right-section {
+  display: flex;
+  justify-content: space-between;
+}
+.headerComponent__input::placeholder {
+  text-transform: capitalize;
+  color: rgb(187, 186, 186);
+}
+.icons-group {
+  display: flex;
+  align-items: center;
+}
+.headerComponent__photo {
+  margin-left: 1rem;
+  width: 2.5rem;
+}
