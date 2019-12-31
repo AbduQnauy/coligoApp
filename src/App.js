@@ -3,7 +3,7 @@ import React from "react";
 // import { faAngleUp, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { Switch, Route } from "react-router-dom";
 //
-import Main from "./components/parentContainer/MainPage";
+import ParentContainer from "./components/parentContainer/ParentContainer";
 // import NewFormContact from "./components/form/NewFormContact";
 // import UpdateFormContact from "./components/form/UpdateFormContact";
 
@@ -16,7 +16,7 @@ function App() {
   //     </Switch>
   //   </div>
   // );
-  return <Main />;
+  return <ParentContainer />;
 }
 
 export default App;
