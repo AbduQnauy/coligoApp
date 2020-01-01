@@ -2,6 +2,8 @@ import * as React from "react";
 import "./main.styles.css";
 import AnnouncementHeader from './announcementHeader/AnnouncementHeader'
 import AnnouncementComponent from "./announcementComponent/AnnouncementComponent";
+import QuizComponent from './quiz/QuizComponent';
+import { faHourglassHalf } from "@fortawesome/free-solid-svg-icons";
 import avatar from "../../avatar.png";
 
 const MainComponent = () => {
@@ -51,6 +53,7 @@ const MainComponent = () => {
       <section className="right-section">
           <AnnouncementHeader firstHeader="what's due" secondHeader='Lorem ipsum dolor sit amn eget.' leftLink='all'
         />
+        <QuizComponent headerText='unit 2 quiz'  icon={faHourglassHalf}course='physics 02' topic='unit 2 motion and forces' dueto='1 jan 2020 - 09:00 PM' buttonText='start quiz'/>
       </section>
     </main>
   );
