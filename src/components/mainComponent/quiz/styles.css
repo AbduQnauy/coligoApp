@@ -1,0 +1,34 @@
+.quiz{
+  margin: 1rem 0
+}
+.quiz__header{
+  margin-bottom: .2rem
+}
+.quiz__icon{
+  margin-right: 0.4rem;
+  color: var(--whiten-color);
+  font-size:1.2rem;
+}
+.quiz__header-text,
+.quiz__detail{
+  text-transform: capitalize;
+  font-size: .8rem
+}
+.quiz__detail{
+  display: flex;
+  color: gray;
+  letter-spacing: 
+}
+.quiz__detail-title{
+  min-width: 32%
+}
+.quiz__button{
+  width: 100%;
+  margin: 1rem 0;
+  color: var(--whiten-color);
+  background: transparent;
+  border: .1rem solid var(--whiten-color
+  );
+  padding: 0.3rem;
+  border-radius: .6rem
+}
